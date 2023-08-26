@@ -10,6 +10,7 @@
 body {
   font-size: 1.2rem;
   font-family: "Lato", sans-serif;
+  overflow-x: hidden;
 }
 
 /* carousel */
@@ -173,11 +174,10 @@ body {
   margin: 0 auto;
 }
 
-
 .photo {
   background-repeat: no-repeat;
-  width: 10rem;
-  height: 11rem;
+  width: 15rem !important;
+  height: 14rem !important;
   border-radius: 5px;
   display: flex;
   flex-direction: column;
@@ -207,7 +207,7 @@ body {
 }
 
 .photo .name {
-  font-size: 15px;
+  font-size: 1.2rem;
   font-style: normal;
   font-weight: 600;
   letter-spacing: 0.75px;
@@ -217,7 +217,7 @@ body {
 
 .photo .role {
   color: #fff;
-  font-size: 10px;
+  font-size: 0.7rem;
   font-weight: 600;
   letter-spacing: 0.5px;
   text-align: center;
@@ -234,22 +234,22 @@ body {
 /* Akhir directur-section */
 
 .client-wrapper .client {
-color: var(--primary-color);
-text-align: center;
-font-size: 1.5rem;
-font-style: normal;
-font-weight: 800;
-letter-spacing: 0.1rem;
-margin-top: 7rem;
+  color: var(--primary-color);
+  text-align: center;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 800;
+  letter-spacing: 0.1rem;
+  margin-top: 7rem;
 }
 
 .client-p {
-text-align: center;
-font-family: Lato;
-font-size: 1rem;
-font-weight: 400;
-line-height: normal;
-letter-spacing: 0.123rem;
+  text-align: center;
+  font-family: Lato;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.123rem;
 }
 
 .carousel-item.brand {
@@ -263,8 +263,24 @@ letter-spacing: 0.123rem;
   object-fit: cover;
 }
 
+.carousel-item.brand h1 {
+  text-align: center;
+  background-color: #3399cc;
+  border-radius: 5px;
+  padding: 1rem;
+  color: white;
+  width: 15rem;
+  height: 10rem;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
 .carousel-control-prev.black,
 .carousel-control-next.black {
   filter: invert() brightness(1);
   text-align: center;
+  height: max-content;
+  display: block;
+  margin: auto 0;
 }
