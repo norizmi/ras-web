@@ -1,0 +1,84 @@
+:root {
+  --primary-color: #3399cc;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 1.2rem;
+  font-family: "Lato", sans-serif;
+  overflow-x: hidden;
+}
+
+.jumbotron {
+  background-image: url(/img/galeri.png);
+  height: 12.5rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.mask {
+  height: 12.5rem;
+}
+
+.border-line {
+  border-bottom: 2px solid #3399cc;
+  width: 20%;
+  padding-top: 10px;
+  margin: 2rem auto;
+}
+
+.dokumentasi-wrapper {
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 700;
+  line-height: 132%;
+  margin-bottom: 6rem;
+}
+
+.dokumentasi-items {
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+  margin-top: 4rem;
+}
+
+.dokumentasi-items img {
+  border-radius: 10px;
+}
+
+.dokumentasi-items img {
+  --s: 250px; /* the size of the image */
+  --b: 8px; /* the border thickness*/
+  --g: 14px; /* the gap */
+  --c: #4ecdc4; /* the color */
+
+  width: var(--s);
+  aspect-ratio: 1;
+  outline: calc(var(--s) / 2) solid #0009;
+  outline-offset: calc(var(--s) / -2);
+  cursor: pointer;
+  transition: 0.3s;
+}
+.dokumentasi-items img:hover {
+  outline: var(--b) solid var(--c);
+  outline-offset: var(--g);
+}
+
+.dokumentasi-items img + img {
+  border-radius: 50%;
+}
+
+.sub-footer {
+  text-align: center;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 132%;
+  letter-spacing: 1.15px;
+  margin-bottom: 4rem;
+  padding: 2rem;
+}

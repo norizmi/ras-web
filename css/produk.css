@@ -1,0 +1,196 @@
+:root {
+  --primary-color: #3399cc;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 1.2rem;
+  font-family: "Lato", sans-serif;
+  overflow-x: hidden;
+}
+
+.jumbotron {
+  background-image: url(/img/truck-produk.png);
+  height: 12.5rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.mask {
+  height: 12.5rem;
+}
+/* section-latar-belakang */
+#more {
+  display: none;
+}
+
+.border-line {
+  border-bottom: 2px solid #3399cc;
+  width: 20%;
+  padding-top: 10px;
+  margin: 2rem auto;
+}
+
+#section-latar-belakang {
+  padding: 2rem;
+  margin-top: -1.5rem;
+}
+
+.latar-belakang {
+  font-size: 1rem;
+  font-weight: 400;
+  text-align: justify;
+  line-height: 132%;
+  letter-spacing: 0.1rem;
+}
+
+#myBtn {
+  text-decoration: none;
+  font-size: 1rem;
+  color: var(--primary-color);
+}
+
+/* akhir section-latar-belakang */
+
+/* service */
+.services-wrapper {
+  padding: 2rem;
+  text-align: center;
+}
+
+.service {
+  font-family: Lato;
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 132%; /* 19.8px */
+  margin: 3rem 0;
+}
+
+.service-p {
+  margin-top: -2rem;
+}
+
+.service.title {
+  color: var(--primary-color);
+  border-bottom: 2px solid var(--primary-color);
+  padding-bottom: 1rem;
+}
+
+.service-p {
+  font-size: 0.9rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; /* 14px */
+}
+
+.kind-of-service {
+  display: flex;
+  flex-direction: column;
+  row-gap: 3rem;
+}
+
+.service-items img {
+  width: 16rem;
+  height: 12rem;
+}
+
+.service-items img:hover {
+   transform: scale(1.1);
+   transition: .3s;
+  }
+/* akhir service */
+
+/* our sending */
+.our-sending::before,
+.our-sending::after {
+  content: "⎯⎯⎯";
+  height: 2px;
+  color: var(--primary-color);
+  padding: 0 1rem;
+}
+
+.our-sending::before {
+  color: var(--primary-color);
+}
+
+.our-sending::after {
+  color: #3399cc;
+}
+/* akhir our sending */
+
+/* icon */
+.icon-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 2rem;
+}
+
+.icon.laut,
+.icon.darat,
+.icon.udara {
+  width: 5rem;
+  height: 5rem;
+  background-color: rgba(51, 153, 204, 0.12);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon.laut:hover,
+.icon.darat:hover,
+.icon.udara:hover {
+  -webkit-box-shadow: 14px 13px 13px -3px rgba(0, 0, 0, 0.29);
+  -moz-box-shadow: 14px 13px 13px -3px rgba(0, 0, 0, 0.29);
+  box-shadow: 14px 13px 13px -3px rgba(0, 0, 0, 0.29);
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+
+.icon-p {
+  text-align: center;
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: 1.71px;
+}
+/* akhir icon */
+
+/* our range */
+.our-range::before,
+.our-range::after {
+  content: "⎯⎯";
+  height: 2px;
+  color: var(--primary-color);
+  padding: 0 1rem;
+}
+
+.our-range::before {
+  color: var(--primary-color);
+}
+
+.our-range::after {
+  color: #3399cc;
+}
+
+.range-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 2rem;
+}
+
+.range-wrapper img {
+    width: 15rem;
+    -webkit-box-shadow: 14px 13px 13px -3px rgba(0, 0, 0, 0.29);
+    -moz-box-shadow: 14px 13px 13px -3px rgba(0, 0, 0, 0.29);
+    box-shadow: 14px 13px 13px -3px rgba(0, 0, 0, 0.29);
+}
+/* akhir our range */
