@@ -1,0 +1,270 @@
+:root {
+  --primary-color: #3399cc;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 1.2rem;
+  font-family: "Lato", sans-serif;
+}
+
+/* carousel */
+.carousel-setting .carousel-inner .carousel-item img {
+  width: 100%;
+  height: 225px;
+  object-fit: cover;
+}
+
+.carousel-item .carousel-caption {
+  font-size: 2rem;
+  margin: auto;
+  margin-bottom: 2.4rem;
+  font-weight: 800;
+  text-shadow: 2px 2px #000;
+}
+
+/* akhir carousel */
+
+/* latar-belakang */
+#more {
+  display: none;
+}
+
+.border-line {
+  border-bottom: 2px solid #3399cc;
+  width: 20%;
+  padding-top: 10px;
+  margin: 2rem auto;
+}
+
+#section-latar-belakang {
+  padding: 2rem;
+  margin-top: -1.5rem;
+}
+
+.latar-belakang {
+  font-size: 1rem;
+  font-weight: 400;
+  text-align: justify;
+  line-height: 132%;
+  letter-spacing: 0.1rem;
+}
+
+#myBtn {
+  text-decoration: none;
+  font-size: 1rem;
+  color: var(--primary-color);
+}
+/* akhir latar-belakang */
+
+/* card visi-misi */
+
+.card-wrapper {
+  display: flex;
+  flex-direction: column;
+  row-gap: 3rem;
+}
+
+.card {
+  width: 20rem;
+  border: none;
+  margin: auto;
+  -webkit-box-shadow: 10px 10px 12px 5px rgba(0, 0, 0, 0.31);
+  -moz-box-shadow: 10px 10px 12px 5px rgba(0, 0, 0, 0.31);
+  box-shadow: 10px 10px 12px 5px rgba(0, 0, 0, 0.31);
+}
+
+.card .card-title {
+  color: var(--primary-color);
+  font-size: 2rem;
+  text-align: center;
+  padding: 1.5rem;
+  border-radius: 10px;
+  font-weight: 800;
+}
+
+.card .card-text {
+  font-size: 1.2rem;
+  text-align: center;
+  font-weight: 400;
+  line-height: 2.4rem;
+  padding-bottom: 2.3rem;
+}
+
+.card .card-text-ul {
+  width: 16rem;
+}
+
+.card li {
+  padding: 1rem;
+}
+/* akhir visi-misi */
+
+/* motto */
+
+.motto-wrapper {
+  margin-top: 6rem;
+  background-color: rgba(51, 153, 204, 0.12);
+  padding: 2rem;
+}
+
+.motto {
+  color: var(--primary-color);
+  font-size: 2rem;
+  text-align: center;
+  padding: 1.5rem;
+  border-radius: 10px;
+  font-weight: 800;
+}
+
+.motto-p {
+  text-align: center;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 185.5%;
+  letter-spacing: 0.15rem;
+}
+/* akhir motto */
+
+/* Directur-section */
+.directur-wrapper {
+  padding-left: 1.3rem;
+}
+
+.directur-p {
+  font-size: 1.1rem;
+  font-weight: 800;
+  letter-spacing: 0.75px;
+}
+
+.directur-title {
+  margin-top: 7rem;
+  color: #39c;
+  font-family: Lato;
+  font-size: 1.9rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  letter-spacing: 1.75px;
+}
+
+.directur-role {
+  font-size: 1.1rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  letter-spacing: 0.75px;
+}
+
+.photo-wrapper {
+  display: flex;
+  justify-content: space-around;
+  gap: 1.4rem;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+}
+
+.photo-wrapper-items {
+  margin: 0 auto;
+}
+
+
+.photo {
+  background-repeat: no-repeat;
+  width: 10rem;
+  height: 11rem;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  padding: 0.5rem;
+}
+
+.splide__slide.photo.marketing {
+  background-image: url(/img/Marketing.png);
+  background-position: center;
+  border-radius: 10px;
+}
+.splide__slide.photo.operasional {
+  background-image: url(/img/Marketing.png);
+  background-position: center;
+  border-radius: 10px;
+}
+.splide__slide.photo.utama {
+  background-image: url(/img/utama.png);
+  background-position: center;
+  border-radius: 10px;
+}
+.photo.commissioner {
+  background-image: url(/img/Marketing.png);
+  background-position: center;
+  border-radius: 10px;
+}
+
+.photo .name {
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: 0.75px;
+  color: white;
+  text-align: center;
+}
+
+.photo .role {
+  color: #fff;
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  text-align: center;
+}
+
+.commissioner-wrapper {
+  margin-top: 5rem;
+  padding-left: 1.3rem;
+  font-size: 1.1rem;
+  font-weight: 800;
+  letter-spacing: 0.75px;
+}
+
+/* Akhir directur-section */
+
+.client-wrapper .client {
+color: var(--primary-color);
+text-align: center;
+font-size: 1.5rem;
+font-style: normal;
+font-weight: 800;
+letter-spacing: 0.1rem;
+margin-top: 7rem;
+}
+
+.client-p {
+text-align: center;
+font-family: Lato;
+font-size: 1rem;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.123rem;
+}
+
+.carousel-item.brand {
+  padding: 3rem;
+}
+
+.carousel-item img {
+  display: block;
+  margin: 0 auto;
+  width: 10rem;
+  object-fit: cover;
+}
+
+.carousel-control-prev.black,
+.carousel-control-next.black {
+  filter: invert() brightness(1);
+  text-align: center;
+}

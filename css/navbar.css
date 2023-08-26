@@ -1,0 +1,39 @@
+:root {
+    --primary-color: #3399cc;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-size: 1.2rem;
+    font-family: "Lato", sans-serif;
+  }
+  
+  /* navbar */
+  .nav-container {
+    background: rgba(255, 255, 255, 0.05); 
+    box-sizing: border-box;
+    backdrop-filter: blur(3.5px);
+    -webkit-backdrop-filter: blur(3.5px);
+  }
+  
+  .nav-container .offcanvas {
+    height: 100vh;
+  }
+  
+  .navbar-nav a {
+    padding-left: 1rem;
+  }
+  
+  .navbar-nav a:hover {
+    background-color: #3399cc3a;
+  }
+  
+  .navbar-brand img,
+  .offcanvas-title img {
+    width: 50px;
+  }
+  /* akhir navbar */

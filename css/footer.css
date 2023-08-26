@@ -1,0 +1,8 @@
+.links a {
+    text-decoration: none;
+  }
+  
+  .links a:hover {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.523);
+    color: #3399ccb8 !important;
+  }
