@@ -24,7 +24,8 @@
       content="logistik, pengiriman, jasa, kurir, pergudangan, transportasi, barang"
     />
     <meta name="author" content="Norizmi" />
-   <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link rel="shortcut icon" href="./img/logo-no-bg.png" type="image/x-icon" />
     <link rel="stylesheet" href="css/home.css" />
     <link rel="stylesheet" href="css/navbar.css" />
@@ -32,7 +33,13 @@
     <link rel="stylesheet" href="css/splide.min.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link
       href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,100&display=swap"
       rel="stylesheet"
@@ -44,16 +51,34 @@
     <nav class="navbar navbar-expand-lg">
       <div class="container">
         <a class="navbar-brand" href="index.html">
-          <img src="./img/logo-no-bg.png" alt="Ras Logistik Express"/>
-          <p style="display: inline; font-size: 0.8rem; padding-left: 0.5rem; color: #3399cc; font-weight: bolder;">Ras Logistik Express</p>
+          <img src="./img/logo-no-bg.png" alt="Ras Logistik Express" />
+          <p
+            style="
+              display: inline;
+              font-size: 0.8rem;
+              padding-left: 0.5rem;
+              color: #3399cc;
+              font-weight: bolder;
+            "
+          >
+            Ras Logistik Express
+          </p>
         </a>
-        <button class="navbar-toggler border-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <button
+          class="navbar-toggler border-2"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse p-2" id="navbarNav">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link"  href="index.html">Beranda</a>
+              <a class="nav-link" href="index.html">Beranda</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="produk.html">Produk dan Layanan</a>
@@ -76,30 +101,26 @@
         data-bs-ride="carousel"
       >
         <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img
-              src="img/image 11.png"
-              class="d-block w-100"
-              alt="carousel-1"
-            />
+          <div class="carousel-item active" data-bs-interval="2000">
+            <img src="img/image 11.png" class="d-block" alt="carousel-1" />
             <div class="carousel-caption">
               <h5>Selamat datang di PT Ras Express Logistik</h5>
             </div>
           </div>
-          <div class="carousel-item">
+          <div class="carousel-item" data-bs-interval="2000">
             <img
               src="img/pengecekan-malam.jpeg"
-              class="d-block w-100"
+              class="d-block"
               alt="carousel-2"
             />
             <div class="carousel-caption">
               <h5>Selamat datang di PT Ras Express Logistik</h5>
             </div>
           </div>
-          <div class="carousel-item">
+          <div class="carousel-item" data-bs-interval="2000">
             <img
               src="img/pengecekan-sore.jpeg"
-              class="d-block w-100"
+              class="d-block"
               alt="carousel-3"
             />
             <div class="carousel-caption">
@@ -130,8 +151,8 @@
 
     <div class="border-line"></div>
 
-    <section id="section-latar-belakang">
-      <p class="latar-belakang">
+    <section id="section-latar-belakang" data-aos="fade-up" data-aos-duration="2000">
+      <p class="latar-belakang" >
         Integritas dan pencapaian hasil merupakan prinsip panduan PT. Ras
         Logistik Express, berdasarkan pengalaman internal dan pelajaran yang
         kami ambil dari perusahaan-perusahaan terkemuka.<span id="dots"
@@ -159,7 +180,12 @@
 
     <section>
       <div class="card-wrapper">
-        <div class="card">
+        <div
+          class="card"
+          data-aos="fade-right"
+          data-aos-easing="linear"
+          data-aos-duration="1000"
+        >
           <div class="card-body">
             <h5 class="card-title">VISI</h5>
             <p class="card-text">
@@ -171,7 +197,12 @@
           </div>
         </div>
 
-        <div class="card">
+        <div
+          class="card"
+          data-aos="fade-left"
+          data-aos-easing="linear"
+          data-aos-duration="1000"
+        >
           <div class="card-body">
             <h5 class="card-title">MISI</h5>
             <ul class="card-text card-text-ul">
@@ -192,7 +223,12 @@
     </section>
 
     <section>
-      <div class="motto-wrapper">
+      <div
+        class="motto-wrapper"
+        data-aos="fade-down"
+        data-aos-easing="linear"
+        data-aos-duration="1000"
+      >
         <h1 class="motto">MOTTO</h1>
         <p class="motto-p">
           “Trust Me” Service your logistics safely, ontime, reliably and Perfect
@@ -210,11 +246,11 @@
         <div class="splide__track splide__arrows">
           <ul class="splide__list photo-wrapper-items">
             <li class="splide__slide photo marketing">
-              <h3 class="name">Yosa Saleh <br>Amnty</h3>
+              <h3 class="name">Yosa Saleh <br />Amnty</h3>
               <p class="role">Direktur Marketing</p>
             </li>
             <li class="splide__slide photo utama">
-              <h3 class="name">Iswandono <br>Puji Handoko</h3>
+              <h3 class="name">Iswandono <br />Puji Handoko</h3>
               <p class="role">Direktur Utama</p>
             </li>
             <li class="splide__slide photo operasional">
@@ -224,12 +260,12 @@
           </ul>
         </div>
       </section>
-      
+
       <div class="commissioner-wrapper">
         <p>Dewan Komisaris</p>
         <div class="photo-wrapper">
           <div class="photo commissioner">
-            <h3 class="name">Agung <br>Hermawan</h3>
+            <h3 class="name">Agung <br />Hermawan</h3>
             <p class="role">Komisaris</p>
           </div>
         </div>
@@ -237,13 +273,12 @@
     </section>
 
     <section>
-      <div class="client-wrapper">
+      <div class="client-wrapper" data-aos="fade-up">
         <h1 class="client">Klien Kami</h1>
         <p class="client-p">Yang sudah menggunakan jasa kami</p>
       </div>
       <div id="carouselExampleFade" class="carousel slide carousel-fade">
         <div class="carousel-inner container-fluid">
-         
           <div class="carousel-item brand active">
             <img src="./img/nasep-hd.png" alt="brightint" />
           </div>
@@ -251,139 +286,158 @@
             <img src="./img/reckat.png" alt="" srcset="" />
           </div>
           <div class="carousel-item brand">
-           <h1>PT. GLOBAL ARTA SUKSES-JAKARTA</h1>
+            <h1>PT. GLOBAL ARTA SUKSES-JAKARTA</h1>
           </div>
           <div class="carousel-item brand">
-            <h1>PT. WAFA-BOGOR
-            </h1>
+            <h1>PT. WAFA-BOGOR</h1>
           </div>
           <div class="carousel-item brand">
-            <h1>HOME INDUSTRI TARI KOLOT-CITEUREUP
-            </h1>
+            <h1>HOME INDUSTRI TARI KOLOT-CITEUREUP</h1>
           </div>
           <div class="carousel-item brand">
-            <h1>PT. HENDROS FARM-DEPOK
-            </h1>
+            <h1>PT. HENDROS FARM-DEPOK</h1>
           </div>
           <div class="carousel-item brand">
-            <h1>PT. CV. LESTARI BERKAH-BOGOR
-            </h1>
+            <h1>PT. CV. LESTARI BERKAH-BOGOR</h1>
           </div>
           <div class="carousel-item brand">
-            <h1>CV.SWEET KREASINDO-DEPOK
-            </h1>
+            <h1>CV.SWEET KREASINDO-DEPOK</h1>
           </div>
           <div class="carousel-item brand">
-            <h1>PT. ANUGERAH BERSAMA -DEPOK
-            </h1>
+            <h1>PT. ANUGERAH BERSAMA -DEPOK</h1>
           </div>
         </div>
-        <button class="carousel-control-prev black" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon next-icon" aria-hidden="true"></span>
+        <button
+          class="carousel-control-prev black"
+          type="button"
+          data-bs-target="#carouselExampleFade"
+          data-bs-slide="prev"
+        >
+          <span
+            class="carousel-control-prev-icon next-icon"
+            aria-hidden="true"
+          ></span>
           <span class="visually-hidden">Previous</span>
         </button>
-        <button class="carousel-control-next black" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
-          <span class="carousel-control-next-icon prev-icon" aria-hidden="true"></span>
+        <button
+          class="carousel-control-next black"
+          type="button"
+          data-bs-target="#carouselExampleFade"
+          data-bs-slide="next"
+        >
+          <span
+            class="carousel-control-next-icon prev-icon"
+            aria-hidden="true"
+          ></span>
           <span class="visually-hidden">Next</span>
         </button>
       </div>
     </section>
 
-
-
-  <!-- Footer -->
-  <footer
-          class="text-center text-lg-start text-white"
-          style="background-color: #1c2331;"
-          >
-
-    <!-- Section: Links  -->
-    <section style="padding: 20px;">
-      <div class="container text-center text-md-start mt-5">
-        <!-- Grid row -->
-        <div class="row mt-3">
-          <!-- Grid column -->
-          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-            <!-- Content -->
-            <img src="./img/logo-no-bg.png" alt="rasexpresslogo" width="60" height="60" style="margin-bottom: 30px; filter: brightness(0) invert();">
-            <h6 class="text-uppercase fw-bold">PT. RAS LOGISTIK EXPRESS</h6>
-            <hr
+    <!-- Footer -->
+    <footer
+      class="text-center text-lg-start text-white"
+      style="background-color: #1c2331"
+    >
+      <!-- Section: Links  -->
+      <section style="padding: 20px">
+        <div class="container text-center text-md-start mt-5">
+          <!-- Grid row -->
+          <div class="row mt-3">
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+              <!-- Content -->
+              <img
+                src="./img/logo-no-bg.png"
+                alt="rasexpresslogo"
+                width="60"
+                height="60"
+                style="margin-bottom: 30px; filter: brightness(0) invert()"
+              />
+              <h6 class="text-uppercase fw-bold">PT. RAS LOGISTIK EXPRESS</h6>
+              <hr
                 class="mb-4 mt-0 d-inline-block mx-auto"
                 style="width: 60px; background-color: #7c4dff; height: 2px"
-                />
-            <p>
-              Melalui kemitraan internasional yang kokoh, jaringan global PT. Ras Logistik Express merentang luas dari Indonesia hingga seluruh Asia Pasifik dan dunia, memungkinkan pengiriman dokumen dan barang secara efisien, cepat, dan aman ke berbagai tujuan.
-            </p>
-          </div>
-          <!-- Grid column -->
+              />
+              <p>
+                Melalui kemitraan internasional yang kokoh, jaringan global PT.
+                Ras Logistik Express merentang luas dari Indonesia hingga
+                seluruh Asia Pasifik dan dunia, memungkinkan pengiriman dokumen
+                dan barang secara efisien, cepat, dan aman ke berbagai tujuan.
+              </p>
+            </div>
+            <!-- Grid column -->
 
-          <!-- Grid column -->
-          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4 links">
-            <!-- Links -->
-            <h6 class="text-uppercase fw-bold">HALAMAN LAIN</h6>
-            <hr
+            <!-- Grid column -->
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4 links">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold">HALAMAN LAIN</h6>
+              <hr
                 class="mb-4 mt-0 d-inline-block mx-auto"
                 style="width: 60px; background-color: #7c4dff; height: 2px"
-                />
-            <p>
-              <a href="produk.html" class="text-white">Produk dan Layanan</a>
-            </p>
-            <p>
-              <a href="jaringan.html" class="text-white">Jaringan Kami</a>
-            </p>
-            <p>
-              <a href="galeri.html" class="text-white">Galeri</a>
-            </p>
-          </div>
-          <!-- Grid column -->
+              />
+              <p>
+                <a href="produk.html" class="text-white">Produk dan Layanan</a>
+              </p>
+              <p>
+                <a href="jaringan.html" class="text-white">Jaringan Kami</a>
+              </p>
+              <p>
+                <a href="galeri.html" class="text-white">Galeri</a>
+              </p>
+            </div>
+            <!-- Grid column -->
 
-          <!-- Grid column -->
-          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-            <!-- Links -->
-            <h6 class="text-uppercase fw-bold">KONTAK</h6>
-            <hr
+            <!-- Grid column -->
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold">KONTAK</h6>
+              <hr
                 class="mb-4 mt-0 d-inline-block mx-auto"
                 style="width: 60px; background-color: #7c4dff; height: 2px"
-                />
-            <p><i class="fas fa-home mr-3"></i> Jl. Haji Jamin Kelapa dua RT.005. RW.009 Tugu Cimanggis Kota Depok 16451
-            </p>
-            <p><i class="fas fa-envelope mr-3"></i>raslogisticexpress@gmail.com </p>
-            <p><i class="fas fa-phone mr-3"></i>+62 81262753802</p>
-            <p><i class="fas fa-phone mr-3"></i> +62 8192203850</p>
+              />
+              <p>
+                <i class="fas fa-home mr-3"></i> Jl. Haji Jamin Kelapa dua
+                RT.005. RW.009 Tugu Cimanggis Kota Depok 16451
+              </p>
+              <p>
+                <i class="fas fa-envelope mr-3"></i>raslogisticexpress@gmail.com
+              </p>
+              <p><i class="fas fa-phone mr-3"></i>+62 81262753802</p>
+              <p><i class="fas fa-phone mr-3"></i> +62 8192203850</p>
+            </div>
+            <!-- Grid column -->
           </div>
-          <!-- Grid column -->
+          <!-- Grid row -->
         </div>
-        <!-- Grid row -->
-      </div>
-    </section>
-    <!-- Section: Links  -->
+      </section>
+      <!-- Section: Links  -->
 
-    <!-- Copyright -->
-    <div
-         class="text-center p-3"
-         style="background-color: rgba(0, 0, 0, 0.2)"
-         >
-         2023 © PT. Ras Logistik Express
-    </div>
-    <!-- Copyright -->
-  </footer>
-  <!-- Footer -->
+      <!-- Copyright -->
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+        2023 © PT. Ras Logistik Express
+      </div>
+      <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
 
     <script src="js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="js/splide.min.js"></script>
     <script src="js/home.js"></script>
     <script>
-  
-  const splide = new Splide( '.splide', {
-  perPage: 1,
-  rewind : true,
-  mediaQuery: 'min',
-  breakpoints: {
-    640: {destroy: true}
-  }
-} );
+      const splide = new Splide(".splide", {
+        perPage: 1,
+        rewind: true,
+        mediaQuery: "min",
+        breakpoints: {
+          640: { destroy: true },
+        },
+      });
 
-splide.mount();
+      splide.mount();
+
+      AOS.init();
     </script>
   </body>
 </html>

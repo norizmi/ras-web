@@ -25,6 +25,7 @@
     />
     <meta name="author" content="Norizmi" />
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="shortcut icon" href="./img/logo-no-bg.png" type="image/x-icon" />
     <link rel="stylesheet" href="css/navbar.css" />
     <link rel="stylesheet" href="css/footer.css" />
@@ -89,7 +90,7 @@
 
       <div class="border-line"></div>
 
-      <section id="section-latar-belakang">
+      <section id="section-latar-belakang" data-aos="zoom-in" data-aos-duration="2000">
         <p class="latar-belakang">
           PT. Ras Logistik Express Merupakan perusahaan yang didirikan di Kota Depok pada tanggal 08 April<span id="dots"
             >...</span><span id="more"><br><br>Jaringan PT Ras Logistik Express merata di seluruh Indonesia, cakupan kami mencakup Head Office, Branch Office, dan Warehouse.</span
@@ -101,7 +102,7 @@
 
       <section>
         <div class="location-wrapper">
-          <div class="location-items">
+          <div class="location-items" data-aos="fade-up" data-aos-duration="2000">
             <img src="./img/loction-our.png" alt="">
             <div class="location-caption">
               <h1 class="office">Head Office</h1>
@@ -110,7 +111,7 @@
               </p>
             </div>    
           </div>
-          <div class="location-items">
+          <div class="location-items" data-aos="fade-up" data-aos-duration="2000">
             <img src="./img/loction-our.png" alt="">
             <div class="location-caption">
               <h1 class="office">Branch Office</h1>
@@ -120,7 +121,7 @@
             </div>
             
           </div>
-          <div class="location-items">
+          <div class="location-items" data-aos="fade-up" data-aos-duration="2000">
             <img src="./img/loction-our.png" alt="">
             <div class="location-caption">
               <h1 class="office">Warehouse</h1>
@@ -214,6 +215,9 @@
       
       <script src="js/bootstrap.min.js"></script>
       <script src="js/home.js"></script>
-    
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <script>
+        AOS.init();
+      </script>
 </body>
 </html>

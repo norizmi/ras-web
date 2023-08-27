@@ -25,6 +25,7 @@
     />
     <meta name="author" content="Norizmi" />
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="shortcut icon" href="./img/logo-no-bg.png" type="image/x-icon" />
     <link rel="stylesheet" href="css/navbar.css" />
     <link rel="stylesheet" href="css/footer.css" />
@@ -90,7 +91,7 @@
 
       <div class="border-line"></div>
 
-      <section id="section-latar-belakang">
+      <section id="section-latar-belakang" data-aos="fade-up" data-aos-duration="2000">
         <p class="latar-belakang">
           PT. Ras Logistik Express, berbasis di Depok, Indonesia, adalah penyedia solusi logistik komprehensif. Layanan kami meliputi kurir ekspress perkotaan, pengiriman kargo, pergudangan, transportasi darat, dan pengiriman barang pindahan untuk rumah dan kantor. Dengan keahlian dalam pengepakan, kepabeanan, <span id="dots"
             >...</span><span id="more">dan jaringan global melalui kemitraan internasional, kami menawarkan pengiriman cepat, aman, dan efisien. Kepercayaan dalam mengantarkan dokumen dan barang adalah komitmen kami, dengan standar profesional yang tinggi.</span
@@ -104,19 +105,19 @@
 
     <section>
       <div class="services-wrapper">
-        <h1 class="service title">PT Ras Logistik Express Melayani</h1>
-        <p class="service-p">Kami menyajikan solusi yang tepat untuk memenuhi kebutuhan bisnis Anda dalam industri logistik.</p>
-        <h1 class="our service">Layanan Kami</h1>
+        <h1 class="service title" data-aos="fade-up" data-aos-duration="2000">PT Ras Logistik Express Melayani</h1>
+        <p class="service-p" data-aos="fade-up" data-aos-duration="2000">Kami menyajikan solusi yang tepat untuk memenuhi kebutuhan bisnis Anda dalam industri logistik.</p>
+        <h1 class="our service" data-aos="fade-up" data-aos-duration="2000">Layanan Kami</h1>
         <div class="kind-of-service">
-          <div class="service-items">
+          <div class="service-items" data-aos="fade-left" data-aos-duration="2000">
             <img src="./img/city-courier.png" alt="city-courier" srcset="">
             <p class="items-p">City Courier</p>
           </div>
-          <div class="service-items">
+          <div class="service-items" data-aos="fade-right" data-aos-duration="2000">
             <img src="./img/inland-transport.png" alt="city-courier" srcset="">
             <p class="items-p">Inland Transportation</p>
           </div>
-          <div class="service-items">
+          <div class="service-items" data-aos="fade-left" data-aos-duration="2000">
             <img src="./img/domestic-sea-freight.png" alt="city-courier" srcset="">
             <p class="items-p">Domestic Sea Freight</p>
           </div>
@@ -125,29 +126,29 @@
     </section>
 
 
-    <div class="our-sending service" style="color: #39c; text-align: center;">Melayani Pengirim</div>
+    <div class="our-sending service" style="color: #39c; text-align: center;" data-aos="fade-up" data-aos-duration="2000">Melayani Pengirim</div>
 
     <section>
       <div class="icon-wrapper">
-        <div class="icon udara rounded-circle">
+        <div class="icon udara rounded-circle" data-aos="flip-up" data-aos-duration="1000">
           <i class="fa-solid fa-plane-departure" style="color: #000000;"></i>
         </div>
         <p class="icon-p">Udara</p>
-        <div class="icon laut rounded-circle">
+        <div class="icon laut rounded-circle" data-aos="flip-up" data-aos-duration="1000">
           <i class="fa-solid fa-ship" style="color: #000000;"></i>
         </div>
         <p class="icon-p">Laut</p>
-        <div class="icon darat rounded-circle">
+        <div class="icon darat rounded-circle" data-aos="flip-up" data-aos-duration="1000">
           <i class="fa-solid fa-truck-fast" style="color: #000000;"></i>
         </div>
         <p class="icon-p">Darat</p>
       </div>
     </section>
 
-    <div class="our-range service" style="color: #39c; text-align: center;">Jangkauan Pengiriman</div>
+    <div class="our-range service" style="color: #39c; text-align: center;" data-aos="fade-up" data-aos-duration="2000">Jangkauan Pengiriman</div>
     <div class="range-wrapper">
-      <img src="./img/jabodetabek.png" alt="jabodetabek" srcset="">
-      <img src="./img/indonesia.png" alt="indonesia" class="mb-5">
+      <img src="./img/jabodetabek.png" alt="jabodetabek" srcset="" data-aos="fade-up" data-aos-duration="2000">
+      <img src="./img/indonesia.png" alt="indonesia" class="mb-5" data-aos="fade-up" data-aos-duration="2000">
     </div>
     <!-- Footer -->
     <footer
@@ -238,5 +239,9 @@
 
     <script src="js/bootstrap.min.js"></script>
     <script src="js/home.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
