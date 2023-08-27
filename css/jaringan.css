@@ -63,3 +63,89 @@ font-style: normal;
 font-weight: 400;
 line-height: 132%;
 }
+
+/* Mwdia Query */
+
+@media screen and  (min-width: 768px) { 
+  .jumbotron {
+    background-image: url(../img/jaringan-kami.png);
+    height: 18rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .mask {
+    height: 18rem;
+  }
+
+  #section-latar-belakang {
+    padding: 7rem;
+    margin-top: 2rem;
+  }
+  
+  .latar-belakang {
+    font-size: 1.3rem;
+  }
+  
+  #myBtn {
+    text-decoration: none;
+    font-size: 1rem;
+    color: var(--primary-color);
+  }
+
+  .location-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+}
+
+@media screen and (min-width: 1200px) {
+  .jumbotron {
+    background-image: url(../img/jaringan-kami.png);
+    height: 28rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .mask {
+    height: 28rem;
+  }
+
+  #section-latar-belakang {
+    padding: 10rem;
+    margin-top: 2rem;
+  }
+  
+  .latar-belakang {
+    font-size: 1.3rem;
+  }
+  
+  #myBtn {
+    text-decoration: none;
+    font-size: 1rem;
+    color: var(--primary-color);
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .jumbotron {
+    background-image: url(../img/jaringan-kami.png);
+    height: 40rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .mask {
+    height: 40rem;
+  }
+
+  .location-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .jaringan-kami {
+    font-size: 5rem;
+  }
+}

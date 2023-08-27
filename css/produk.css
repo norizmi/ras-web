@@ -14,7 +14,7 @@ body {
 }
 
 .jumbotron {
-  background-image: url(../img/truck-produk.png);
+  background-image: url(../img/produk-min.png);
   height: 12.5rem;
   background-repeat: no-repeat;
   background-size: cover;
@@ -194,3 +194,209 @@ body {
     box-shadow: 14px 13px 13px -3px rgba(0, 0, 0, 0.29);
 }
 /* akhir our range */
+
+/* --------------------------------------------------------------------------------------------------------- */
+/* Media Query */
+
+@media (min-width: 768px) { 
+  .jumbotron {
+    background-image: url(../img/produk-min.png);
+    height: 18rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .mask {
+    height: 18rem;
+  }
+
+  #section-latar-belakang {
+    padding: 7rem;
+    margin-top: 2rem;
+  }
+  
+  .latar-belakang {
+    font-size: 1.3rem;
+  }
+  
+  #myBtn {
+    text-decoration: none;
+    font-size: 1rem;
+    color: var(--primary-color);
+  }
+
+  /* service */
+.services-wrapper {
+  padding: 4rem;
+}
+
+.service {
+  font-size: 1.6rem;
+  margin: 3rem 0;
+}
+
+.service-p {
+  font-size: 1rem;
+}
+
+.kind-of-service {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.service-items img {
+  width: 16rem;
+  height: 12rem;
+}
+
+.service-items img:hover {
+   transform: scale(1.1);
+   transition: .3s;
+  }
+/* akhir service */
+
+  /* icon */
+.icon-wrapper {
+  display: flex;
+  row-gap: 2rem;
+  flex-direction: column;
+}
+/* akhir icon */
+
+/* our range */
+.our-range::before,
+.our-range::after {
+  content: "⎯⎯⎯⎯⎯⎯⎯";
+  height: 2px;
+  color: var(--primary-color);
+  padding: 0 1rem;
+}
+/* akhir our range */
+
+.our-sending::before,
+.our-sending::after {
+  content: "⎯⎯⎯⎯⎯⎯⎯";
+  height: 2px;
+  color: var(--primary-color);
+  padding: 0 1rem;
+}
+
+.range-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 4rem;
+}
+
+}
+
+@media (min-width: 1200px) { 
+  .jumbotron {
+    background-image: url(../img/produk-min.png);
+    height: 28rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .mask {
+    height: 28rem;
+  }
+
+  #section-latar-belakang {
+    padding: 10rem;
+    margin-top: 2rem;
+  }
+  
+  .latar-belakang {
+    font-size: 1.4rem;
+  }
+
+  /* service */
+.services-wrapper {
+  padding: 4rem;
+}
+
+.service {
+  font-size: 1.6rem;
+  margin: 3rem 0;
+}
+
+.service-p {
+  font-size: 1rem;
+}
+
+.kind-of-service {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.service-items img {
+  width: 20rem;
+  height: 16rem;
+}
+
+/* akhir service */
+
+  /* icon */
+.icon-wrapper {
+ display: flex;
+ flex-direction: column;
+}
+
+/* our range */
+.our-range::before,
+.our-range::after {
+  content: "⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯";
+}
+/* akhir our range */
+
+.our-sending::before,
+.our-sending::after {
+  content: "⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯";
+}
+.range-wrapper img {
+  width: 20rem;
+}
+
+.range-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 4rem;
+}
+
+}
+
+@media (min-width: 1400px) {
+  .jumbotron {
+    height: 40rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .mask {
+    height: 40rem;
+  }
+
+  .produk-h1 {
+    font-size: 4rem;
+    transition: 2s ease all;
+  }
+
+  .range-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 5rem;
+  }
+
+  .range-wrapper img {
+    width: 30rem;
+  }
+  
+
+ }

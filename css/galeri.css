@@ -81,3 +81,74 @@ body {
   margin-bottom: 4rem;
   padding: 2rem;
 }
+
+/* Media Query */
+
+@media screen and  (min-width: 768px) { 
+  .jumbotron {
+    background-image: url(../img/galeri.png);
+    height: 18rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .mask {
+    height: 18rem;
+  }
+}
+
+@media screen and  (min-width: 1200px) { 
+  .jumbotron {
+    background-image: url(../img/galeri.png);
+    height: 28rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .mask {
+    height: 28rem;
+  }
+
+  .galeri-kami {
+    font-size: 3rem;
+  }
+
+  .border-line {
+    padding-top: 5rem;
+  }
+
+  .dokumentasi-items {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 6rem;
+  }
+
+} 
+
+@media screen and  (min-width: 1400px) { 
+  .jumbotron {
+    background-image: url(../img/galeri.png);
+    height: 40rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .mask {
+    height: 40rem;
+  }
+
+  .galeri-kami {
+    font-size: 5rem;
+  }
+
+  .border-line {
+    padding-top: 8rem;
+  }
+
+  .dokumentasi-items {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 6rem;
+  }
+
+} 
