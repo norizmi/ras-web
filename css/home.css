@@ -186,22 +186,22 @@ body {
 }
 
 .splide__slide.photo.marketing {
-  background-image: url(/img/Marketing.png);
+  background-image: url(../img/Marketing.png);
   background-position: center;
   border-radius: 10px;
 }
 .splide__slide.photo.operasional {
-  background-image: url(/img/Marketing.png);
+  background-image: url(../img/Marketing.png);
   background-position: center;
   border-radius: 10px;
 }
 .splide__slide.photo.utama {
-  background-image: url(/img/utama.png);
+  background-image: url(../img/Marketing.png);
   background-position: center;
   border-radius: 10px;
 }
 .photo.commissioner {
-  background-image: url(/img/Marketing.png);
+  background-image: url(../img/Marketing.png);
   background-position: center;
   border-radius: 10px;
 }
