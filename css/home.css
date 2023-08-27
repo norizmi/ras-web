@@ -229,3 +229,609 @@ body {
   display: block;
   margin: auto 0;
 }
+
+/* -------------------------------------------------------------------------------------------------------------------------- */
+/* Media Query */
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+
+  /* carousel */
+.carousel-setting .carousel-inner .carousel-item img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+
+.carousel-item .carousel-caption h5 {
+  margin-bottom: 3rem;
+  font-weight: 800;
+  font-size: 2.8rem;
+  text-shadow: 2px 2px #000;
+}
+
+/* akhir carousel */
+
+/* card visi-misi */
+
+.card-wrapper {
+  display: flex;
+  flex-direction: column;
+  row-gap: 5rem;
+  margin-top: 7rem;
+}
+
+.card {
+  width: 25rem;
+}
+
+
+.card .card-text-ul {
+  width: 23rem;
+  text-align: start;
+}
+
+.card li {
+  padding: 2rem;
+}
+/* akhir visi-misi */
+
+  /* motto */
+
+.motto-wrapper {
+  margin-top: 10rem;
+  padding: 2rem;
+}
+
+.motto {
+  font-size: 2.5rem;
+}
+
+.motto-p {
+  font-size: 1.2rem;
+}
+/* akhir motto */
+
+/* Directur-section */
+.directur-wrapper {
+  padding-left: 3rem;
+}
+
+.directur-p {
+  font-size: 1.5rem;
+  font-weight: 800;
+  letter-spacing: 0.75px;
+}
+
+.directur-title {
+  margin-top: 7rem;
+  color: #39c;
+  font-family: Lato;
+  font-size: 2.7rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  letter-spacing: 1.75px;
+}
+
+.directur-role {
+  font-size: 1.1rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  letter-spacing: 0.75px;
+}
+
+.directur-utama {
+  width: 18rem;
+  text-align: center;
+}
+
+.directur-body {
+  padding-top: 3rem;
+}
+
+.directur-utama {
+  width: 23rem;
+  text-align: center;
+  margin-top: 5rem;
+}
+
+.card-h1 {
+  font-size: 1.8rem;
+  font-weight: 800;
+}
+/* Akhir directur-section */
+
+.client-wrapper .client {
+  font-size: 3rem;
+  margin-top: 15rem;
+}
+
+.client-p {
+  text-align: center;
+  font-family: Lato;
+  font-size: 1.3rem;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.123rem;
+}
+
+.carousel-item img {
+  width: 13rem;
+}
+
+
+.carousel-item.brand h1 {
+  width: 18rem;
+  height: 12rem;
+}
+
+ }
+
+ /* -------------------------------------------------------------------------------------------------------------------------- */
+
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+   /* carousel */
+.carousel-setting .carousel-inner .carousel-item img {
+  width: 100%;
+  height: 650px;
+  object-fit: cover;
+}
+
+.carousel-item .carousel-caption h5 {
+  margin-bottom: 10.5rem;
+  font-size: 4rem;
+  text-shadow: 2px 2px #000;
+}
+
+/* akhir carousel */
+
+/* card visi-misi */
+
+.card-wrapper {
+  display: flex;
+  flex-direction: column;
+  row-gap: 5rem;
+  margin-top: 7rem;
+}
+
+.card {
+  width: 25rem;
+}
+
+
+.card .card-text-ul {
+  width: 23rem;
+  text-align: start;
+}
+
+.card li {
+  padding: 2rem;
+}
+/* akhir visi-misi */
+
+  /* motto */
+
+.motto-wrapper {
+  margin-top: 10rem;
+  padding: 2rem;
+}
+
+.motto {
+  font-size: 2.5rem;
+}
+
+.motto-p {
+  font-size: 1.2rem;
+}
+/* akhir motto */
+
+/* Directur-section */
+.directur-wrapper {
+  padding-left: 3rem;
+}
+
+.directur-p {
+  font-size: 1.5rem;
+  font-weight: 800;
+  letter-spacing: 0.75px;
+}
+
+.directur-title {
+  margin-top: 7rem;
+  color: #39c;
+  font-family: Lato;
+  font-size: 2.7rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  letter-spacing: 1.75px;
+}
+
+.directur-role {
+  font-size: 1.1rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  letter-spacing: 0.75px;
+}
+
+.directur-utama {
+  width: 18rem;
+  text-align: center;
+}
+
+.directur-body {
+  padding-top: 3rem;
+}
+
+.directur-utama {
+  width: 23rem;
+  text-align: center;
+  margin-top: 5rem;
+}
+
+.card-h1 {
+  font-size: 1.8rem;
+  font-weight: 800;
+}
+/* Akhir directur-section */
+
+.client-wrapper .client {
+  font-size: 3rem;
+  margin-top: 15rem;
+}
+
+.client-p {
+  text-align: center;
+  font-family: Lato;
+  font-size: 1.3rem;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.123rem;
+}
+
+.carousel-item img {
+  width: 13rem;
+}
+
+
+.carousel-item.brand h1 {
+  width: 18rem;
+  height: 12rem;
+}
+
+  /* latar-belakang */
+#section-latar-belakang {
+  padding: 5rem;
+  margin-top: 4rem;
+}
+
+.latar-belakang {
+  font-size: 1.2rem;
+}
+
+#myBtn {
+  font-size: 1.2rem;
+}
+/* akhir latar-belakang */
+
+/* card visi-misi */
+
+.card-wrapper {
+  display: flex;
+  flex-direction: row;
+  row-gap: 0rem;
+  justify-content: center;
+}
+
+.card {
+  width: 30rem;
+  border: none;
+  margin: auto;
+  padding: 0rem;
+}
+
+.card .card-title {
+  font-size: 2rem;
+  padding: 1.5rem;
+}
+
+.card .card-text {
+  font-size: 1.2rem;
+  line-height: 2rem;
+  padding-bottom: 2rem;
+}
+
+.card .card-text-ul {
+  width: 30rem;
+  padding-right: 2rem;
+}
+
+.card li {
+  padding: 0rem;
+  text-align: start;
+}
+/* akhir visi-misi */
+
+/* motto */
+
+.motto-wrapper {
+  margin-top: 15rem;
+}
+
+.motto {
+  font-size: 3rem;
+}
+
+.motto-p {
+  text-align: center;
+  font-size: 1.8rem;
+}
+/* akhir motto */
+
+/* Directur-section */
+.directur-wrapper {
+  padding-left: 5rem;
+}
+
+.directur-p {
+  font-size: 1.3rem;
+}
+
+.directur-title {
+  margin-top: 9rem;
+  font-size: 3rem;
+}
+
+.directur-utama {
+  width: 18rem;
+}
+/* Akhir directur-section */
+
+.client-wrapper .client {
+  font-size: 3.5rem;
+  margin-top: 15rem;
+}
+
+.client-p {
+  font-size: 1.2rem;
+}
+
+.carousel-item.brand {
+  padding: 3rem;
+}
+
+.carousel-item img {
+  width: 15rem;
+}
+
+.carousel-item.brand h1 {
+  width: 20rem;
+  height: 20rem;
+  margin-top: 3rem;
+}
+
+
+ }
+
+
+ /* -------------------------------------------------------------------------------------------------------------------------- */
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { 
+    /* carousel */
+.carousel-setting .carousel-inner .carousel-item img {
+  width: 100%;
+  height: 800px;
+  object-fit: cover;
+}
+
+.carousel-item .carousel-caption h5 {
+  margin-bottom: 14rem;
+  font-size: 5rem;
+}
+
+/* akhir carousel */
+
+.latar-belakang {
+  font-size: 2rem;
+  padding: 5rem;
+}
+
+#myBtn {
+  font-size: 2rem;
+  padding: 5rem;
+}
+
+/* card visi-misi */
+
+.card {
+  width: 40rem !important;
+}
+/* akhir visi-misi */
+
+/* Directur-section */
+.directur-wrapper {
+  padding-left: 3rem;
+}
+
+.directur-p {
+  font-size: 1.5rem;
+  font-weight: 800;
+  letter-spacing: 0.75px;
+}
+
+.directur-title {
+  margin-top: 7rem;
+  font-size: 4rem;
+}
+
+.directur-role {
+  font-size: 1.1rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  letter-spacing: 0.75px;
+}
+
+.directur-utama {
+  width: 20rem !important;
+  text-align: center;
+}
+
+.directur-body {
+  padding-top: 3rem;
+}
+
+.directur-utama {
+  width: 23rem;
+  text-align: center;
+  margin-top: 5rem;
+}
+
+.card-h1 {
+  font-size: 1.8rem;
+  font-weight: 800;
+}
+/* Akhir directur-section */
+
+.client-wrapper .client {
+  font-size: 3rem;
+  margin-top: 15rem;
+}
+
+.client-p {
+  text-align: center;
+  font-family: Lato;
+  font-size: 1.3rem;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.123rem;
+}
+
+.carousel-item img {
+  width: 13rem;
+}
+
+
+.carousel-item.brand h1 {
+  width: 18rem;
+  height: 12rem;
+}
+
+  /* latar-belakang */
+#section-latar-belakang {
+  padding: 5rem;
+  margin-top: 4rem;
+}
+
+.latar-belakang {
+  font-size: 1.2rem;
+}
+
+#myBtn {
+  font-size: 1.2rem;
+}
+/* akhir latar-belakang */
+
+/* card visi-misi */
+
+.card-wrapper {
+  display: flex;
+  flex-direction: row;
+  row-gap: 0rem;
+  justify-content: center;
+}
+
+.card {
+  width: 30rem;
+  border: none;
+  margin: auto;
+  padding: 0rem;
+}
+
+.card .card-title {
+  font-size: 2rem;
+  padding: 1.5rem;
+}
+
+.card .card-text {
+  font-size: 1.2rem;
+  line-height: 2rem;
+  padding-bottom: 2rem;
+}
+
+.card .card-text-ul {
+  width: 30rem;
+  padding-right: 2rem;
+}
+
+.card li {
+  padding: 0rem;
+  text-align: start;
+}
+/* akhir visi-misi */
+
+/* motto */
+
+.motto-wrapper {
+  margin-top: 15rem;
+}
+
+.motto {
+  font-size: 3rem;
+}
+
+.motto-p {
+  text-align: center;
+  font-size: 1.8rem;
+}
+/* akhir motto */
+
+/* Directur-section */
+.directur-wrapper {
+  padding-left: 5rem;
+}
+
+.directur-p {
+  font-size: 1.3rem;
+}
+
+.directur-title {
+  margin-top: 9rem;
+  font-size: 3rem;
+}
+
+.directur-utama {
+  width: 18rem;
+}
+/* Akhir directur-section */
+
+.client-wrapper .client {
+  font-size: 3.5rem;
+  margin-top: 15rem;
+}
+
+.client-p {
+  font-size: 1.2rem;
+}
+
+.carousel-item.brand {
+  padding: 3rem;
+}
+
+.carousel-item img {
+  width: 15rem;
+}
+
+.carousel-item.brand h1 {
+  width: 20rem;
+  height: 20rem;
+  margin-top: 3rem;
+}
+
+ }
