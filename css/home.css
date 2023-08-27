@@ -162,75 +162,19 @@ body {
   letter-spacing: 0.75px;
 }
 
-.photo-wrapper {
-  display: flex;
-  justify-content: space-around;
-  gap: 1.4rem;
-  flex-wrap: wrap;
-  margin-top: 2rem;
-}
-
-.photo-wrapper-items {
-  margin: 0 auto;
-}
-
-.photo {
-  background-repeat: no-repeat;
-  width: 15rem !important;
-  height: 14rem !important;
-  border-radius: 5px;
-  display: flex;
-  flex-direction: column;
-  justify-content: end;
-  padding: 0.5rem;
-}
-
-.splide__slide.photo.marketing {
-  background-image: url(../img/Marketing.png);
-  background-position: center;
-  border-radius: 10px;
-}
-.splide__slide.photo.operasional {
-  background-image: url(../img/Marketing.png);
-  background-position: center;
-  border-radius: 10px;
-}
-.splide__slide.photo.utama {
-  background-image: url(../img/Marketing.png);
-  background-position: center;
-  border-radius: 10px;
-}
-.photo.commissioner {
-  background-image: url(../img/Marketing.png);
-  background-position: center;
-  border-radius: 10px;
-}
-
-.photo .name {
-  font-size: 1.2rem;
-  font-style: normal;
-  font-weight: 600;
-  letter-spacing: 0.75px;
-  color: white;
+.directur-utama {
+  width: 18rem;
   text-align: center;
 }
 
-.photo .role {
-  color: #fff;
-  font-size: 0.7rem;
-  font-weight: 600;
-  letter-spacing: 0.5px;
-  text-align: center;
+.directur-body {
+  padding-top: 3rem;
 }
 
-.commissioner-wrapper {
-  margin-top: 5rem;
-  padding-left: 1.3rem;
-  font-size: 1.1rem;
+.card-h1 {
+  font-size: 1.8rem;
   font-weight: 800;
-  letter-spacing: 0.75px;
 }
-
 /* Akhir directur-section */
 
 .client-wrapper .client {
@@ -267,13 +211,14 @@ body {
   text-align: center;
   background-color: #3399cc;
   border-radius: 5px;
-  padding: 1rem;
+  padding: 2rem;
   color: white;
   width: 15rem;
   height: 10rem;
   margin: 0 auto;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .carousel-control-prev.black,

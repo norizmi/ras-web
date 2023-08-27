@@ -30,7 +30,6 @@
     <link rel="stylesheet" href="css/home.css" />
     <link rel="stylesheet" href="css/navbar.css" />
     <link rel="stylesheet" href="css/footer.css" />
-    <link rel="stylesheet" href="css/splide.min.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -97,7 +96,7 @@
     <section>
       <div
         id="carouselExampleAutoplaying"
-        class="carousel slide carousel-setting"
+        class="carousel slide carousel-setting col-lg-12 h-lg-5"
         data-bs-ride="carousel"
       >
         <div class="carousel-inner">
@@ -238,36 +237,15 @@
     </section>
 
     <section>
-      <section class="splide">
-        <div class="directur-wrapper">
-          <h1 class="directur-title">Pimpinan<br />Perusahaan</h1>
-          <p class="directur-p">Dewan Direksi</p>
-        </div>
-        <div class="splide__track splide__arrows">
-          <ul class="splide__list photo-wrapper-items">
-            <li class="splide__slide photo marketing">
-              <h3 class="name">Yosa Saleh <br />Amnty</h3>
-              <p class="role">Direktur Marketing</p>
-            </li>
-            <li class="splide__slide photo utama">
-              <h3 class="name">Iswandono <br />Puji Handoko</h3>
-              <p class="role">Direktur Utama</p>
-            </li>
-            <li class="splide__slide photo operasional">
-              <h3 class="name">Asep Supyana</h3>
-              <p class="role">Direktur Operasional</p>
-            </li>
-          </ul>
-        </div>
-      </section>
-
-      <div class="commissioner-wrapper">
-        <p>Dewan Komisaris</p>
-        <div class="photo-wrapper">
-          <div class="photo commissioner">
-            <h3 class="name">Agung <br />Hermawan</h3>
-            <p class="role">Komisaris</p>
-          </div>
+      <div class="directur-wrapper" data-aos="fade-right" data-aos-duration="2000">
+        <h1 class="directur-title">Pimpinan<br />Perusahaan</h1>
+        <p class="directur-p">Dewan Direksi</p>
+      </div>
+      <div class="card directur-utama" data-aos="fade-up" data-aos-duration="2000">
+        <img src="./img/utama.png" class="card-img-top" alt="owner">
+        <div class="card-body directur-body">
+          <h1 class="card-h1" data-aos="fade-up" data-aos-duration="2000">Iswandono Puji Handoko</h1>
+          <p class="card-text card-p" data-aos="fade-up" data-aos-duration="2000">Direktur Utama</p>
         </div>
       </div>
     </section>
@@ -285,25 +263,25 @@
           <div class="carousel-item brand">
             <img src="./img/reckat.png" alt="" srcset="" />
           </div>
-          <div class="carousel-item brand">
+          <div class="carousel-item brand p-3">
             <h1>PT. GLOBAL ARTA SUKSES-JAKARTA</h1>
           </div>
-          <div class="carousel-item brand">
+          <div class="carousel-item brand p-3">
             <h1>PT. WAFA-BOGOR</h1>
           </div>
-          <div class="carousel-item brand">
+          <div class="carousel-item brand p-3">
             <h1>HOME INDUSTRI TARI KOLOT-CITEUREUP</h1>
           </div>
-          <div class="carousel-item brand">
+          <div class="carousel-item brand p-3">
             <h1>PT. HENDROS FARM-DEPOK</h1>
           </div>
-          <div class="carousel-item brand">
+          <div class="carousel-item brand p-3">
             <h1>PT. CV. LESTARI BERKAH-BOGOR</h1>
           </div>
-          <div class="carousel-item brand">
+          <div class="carousel-item brand p-3">
             <h1>CV.SWEET KREASINDO-DEPOK</h1>
           </div>
-          <div class="carousel-item brand">
+          <div class="carousel-item brand p-3">
             <h1>PT. ANUGERAH BERSAMA -DEPOK</h1>
           </div>
         </div>
@@ -423,19 +401,8 @@
 
     <script src="js/bootstrap.min.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script src="js/splide.min.js"></script>
     <script src="js/home.js"></script>
     <script>
-      const splide = new Splide(".splide", {
-        perPage: 1,
-        rewind: true,
-        mediaQuery: "min",
-        breakpoints: {
-          640: { destroy: true },
-        },
-      });
-
-      splide.mount();
 
       AOS.init();
     </script>
