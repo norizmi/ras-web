@@ -54,7 +54,6 @@ body {
   --s: 250px; /* the size of the image */
   --b: 8px; /* the border thickness*/
   --g: 14px; /* the gap */
-  --c: #4ecdc4; /* the color */
 
   width: var(--s);
   aspect-ratio: 1;
@@ -64,7 +63,7 @@ body {
   transition: 0.3s;
 }
 .dokumentasi-items img:hover {
-  outline: var(--b) solid var(--c);
+  outline: var(--b) solid var(--primary-color);
   outline-offset: var(--g);
 }
 
