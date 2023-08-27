@@ -143,6 +143,7 @@ line-height: 132%;
   .location-wrapper {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    margin-bottom: 6rem;
   }
 
   .jaringan-kami {

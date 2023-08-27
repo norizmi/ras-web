@@ -25,10 +25,37 @@
   }
   
   .navbar-nav a:hover {
-    background-color: #3399cc3a;
+    background-color: #3399cc69;
   }
   
   .navbar-brand img {
     width: 50px;
   }
   /* akhir navbar */
+
+  @media  screen and (min-width: 1200px) {
+    .navbar-nav a:hover {
+      width: fit-content;
+      background-color: #3399cc30;
+    }
+
+    .turn-on {
+      border-bottom: 2px solid var(--primary-color);
+      transition: 1s ease all;
+    }
+    
+  }
+
+  @media  screen and (min-width: 1400px) {
+
+    .navbar-nav a:hover {
+      width: fit-content;
+      background-color: #3399cc30;
+    }
+
+    .turn-on {
+      border-bottom: 2px solid var(--primary-color);
+      transition: 1s ease all;
+    }
+    
+  }
