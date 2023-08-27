@@ -20,10 +20,6 @@
     -webkit-backdrop-filter: blur(3.5px);
   }
   
-  .nav-container .offcanvas {
-    height: 100vh;
-  }
-  
   .navbar-nav a {
     padding-left: 1rem;
   }
@@ -32,8 +28,7 @@
     background-color: #3399cc3a;
   }
   
-  .navbar-brand img,
-  .offcanvas-title img {
+  .navbar-brand img {
     width: 50px;
   }
   /* akhir navbar */
